@@ -1,0 +1,7 @@
+2025-06-22 20:03:52,075 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-22 20:03:52,337 - __main__ - INFO - Starting Email Forwarder Bot
+2025-06-22 20:03:52,337 - __main__ - INFO - Checking for new emails...
+2025-06-22 20:03:53,428 - gmail_client - ERROR - Error fetching emails: <HttpError 400 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages?labelIds=income&alt=json returned "Invalid label: income". Details: "[{'message': 'Invalid label: income', 'domain': 'global', 'reason': 'invalidArgument'}]">
+2025-06-22 20:03:53,659 - gmail_client - ERROR - Error fetching emails: <HttpError 400 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages?labelIds=expense&alt=json returned "Invalid label: expense". Details: "[{'message': 'Invalid label: expense', 'domain': 'global', 'reason': 'invalidArgument'}]">
+2025-06-22 20:03:53,874 - gmail_client - ERROR - Error fetching emails: <HttpError 400 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages?labelIds=transfer&alt=json returned "Invalid label: transfer". Details: "[{'message': 'Invalid label: transfer', 'domain': 'global', 'reason': 'invalidArgument'}]">
+2025-06-22 20:05:26,597 - __main__ - ERROR - Bot crashed: 'GmailClient' object has no attribute '_authenticate'
